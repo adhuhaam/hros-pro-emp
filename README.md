@@ -4,6 +4,33 @@
 
 A modern, feature-rich React Native mobile application for employees, built with Expo and inspired by professional design patterns. This app provides seamless access to HR services including attendance tracking, leave management, payroll, and employee self-service features.
 
+## 📸 App Preview
+
+### **Dashboard & Employee ID Card**
+<div align="center">
+  <img src="./docs/images/dashboard-preview.png" alt="Dashboard with Animated Employee ID Card" width="300"/>
+  <img src="./docs/images/employee-card-flip.gif" alt="Employee Card Flip Animation" width="300"/>
+</div>
+
+### **Key Screens**
+<div align="center">
+  <img src="./docs/images/login-screen.png" alt="Login Screen" width="250"/>
+  <img src="./docs/images/attendance-screen.png" alt="Attendance Screen" width="250"/>
+  <img src="./docs/images/leave-screen.png" alt="Leave Management" width="250"/>
+</div>
+
+### **Dark Theme Support**
+<div align="center">
+  <img src="./docs/images/dashboard-dark.png" alt="Dark Theme Dashboard" width="300"/>
+  <img src="./docs/images/profile-dark.png" alt="Dark Theme Profile" width="300"/>
+</div>
+
+### **Design Inspiration (HRoS v3)**
+<div align="center">
+  <img src="./docs/images/hrosv3-inspiration.png" alt="HRoS v3 Design Inspiration" width="600"/>
+  <p><em>Professional design patterns and animations inspired by HRoS v3</em></p>
+</div>
+
 ## ✨ Project Highlights
 
 - **🎨 Professional Design** - Inspired by HRoS v3 with stunning animations and modern UI
@@ -115,6 +142,8 @@ src/
 ├── constants/            # App constants
 ├── locales/              # Translation files
 └── assets/               # Images, fonts, etc.
+└── docs/                 # Documentation and images
+    └── images/           # App screenshots and mockups
 ```
 
 ### **Backend Integration**
@@ -185,6 +214,21 @@ npx expo start --dev-client
 EXPO_PUBLIC_API_BASE_URL=https://your-backend-url.com
 EXPO_PUBLIC_APP_NAME=HRoS Pro Employee
 ```
+
+### **Adding Screenshots**
+To update the app preview images:
+
+1. Create the `docs/images/` directory in your project root
+2. Take screenshots of your app screens
+3. Add them to the images folder with these names:
+   - `dashboard-preview.png` - Main dashboard screenshot
+   - `employee-card-flip.gif` - Animated card flip
+   - `login-screen.png` - Login interface
+   - `attendance-screen.png` - Attendance management
+   - `leave-screen.png` - Leave management
+   - `dashboard-dark.png` - Dark theme dashboard
+   - `profile-dark.png` - Dark theme profile
+   - `hrosv3-inspiration.png` - Design inspiration comparison
 
 ## 📱 User Roles & Permissions
 
